@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>UniSharp.Shared</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MagicOnion.Abstractions" Version="3.0.11" />
+      <PackageReference Include="MagicOnion.MSBuild.Tasks" Version="3.0.11" />
+      <PackageReference Include="MessagePack.MSBuild.Tasks" Version="2.1.90" />
+      <PackageReference Include="MessagePack.UnityShims" Version="2.1.90" />
+    </ItemGroup>
+
+</Project>
