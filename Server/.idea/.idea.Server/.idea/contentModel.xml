@@ -12,6 +12,7 @@
       <e p="README.md" t="Include" />
       <e p="Server.sln" t="IncludeFlat" />
       <e p="src" t="Include">
+        <e p="Common" t="Include" />
         <e p="UniSharp.AppServer" t="IncludeRecursive">
           <e p="appsettings.json" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
@@ -23,6 +24,9 @@
             </e>
           </e>
           <e p="Program.cs" t="Include" />
+          <e p="Rpc.Services" t="Include">
+            <e p="LoginService.cs" t="Include" />
+          </e>
           <e p="UniSharp.AppServer.csproj" t="IncludeRecursive" />
         </e>
         <e p="UniSharp.CommandLine" t="IncludeRecursive">
@@ -37,6 +41,29 @@
           <e p="Program.cs" t="Include" />
           <e p="UniSharp.CommandLine.csproj" t="IncludeRecursive" />
         </e>
+        <e p="UniSharp.Common.Extensions" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="UniSharp.Common.Extensions.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="UniSharp.Common.Extensions.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="UniSharp.Common.RpcServer" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="UniSharp.Common.RpcServer.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="README.md" t="Include" />
+          <e p="UniSharp.Common.RpcServer.csproj" t="IncludeRecursive" />
+        </e>
         <e p="UniSharp.GameServer" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
@@ -49,18 +76,6 @@
           <e p="Program.cs" t="Include" />
           <e p="UniSharp.GameServer.csproj" t="IncludeRecursive" />
         </e>
-        <e p="UniSharp.ServerCommon" t="IncludeRecursive">
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp3.1" t="Include">
-                <e p="UniSharp.ServerCommon.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="README.md" t="Include" />
-          <e p="UniSharp.ServerCommon.csproj" t="IncludeRecursive" />
-        </e>
       </e>
     </e>
     <e p="C:\Users\ktsh81\source\repos\UniSharp\Shared\UniSharp.Abstractions" t="IncludeRecursive">
@@ -70,6 +85,11 @@
           <e p="netstandard2.0" t="Include">
             <e p="UniSharp.Abstractions.AssemblyInfo.cs" t="Include" />
           </e>
+        </e>
+      </e>
+      <e p="Rpc" t="Include">
+        <e p="Services" t="Include">
+          <e p="LoginService.cs" t="Include" />
         </e>
       </e>
       <e p="UniSharp.Abstractions.csproj" t="IncludeRecursive" />

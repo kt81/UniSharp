@@ -4,7 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7AAE61C-436
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.AppServer", "src\UniSharp.AppServer\UniSharp.AppServer.csproj", "{4214381F-8A61-4046-A4AD-818784821697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.ServerCommon", "src\UniSharp.ServerCommon\UniSharp.ServerCommon.csproj", "{2BB9592E-2672-4981-BD9B-A167355B18DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.Common.RpcServer", "src\UniSharp.Common.RpcServer\UniSharp.Common.RpcServer.csproj", "{2BB9592E-2672-4981-BD9B-A167355B18DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.GameServer", "src\UniSharp.GameServer\UniSharp.GameServer.csproj", "{7671FF3F-56E6-4C62-AB77-CE8BAAED4F32}"
 EndProject
@@ -18,6 +18,10 @@ ProjectSection(SolutionItems) = preProject
 	..\.gitattributes = ..\.gitattributes
 	..\.gitignore = ..\.gitignore
 EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EA2AB621-0A66-4E80-8FFE-7122227F0E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.Common.Extensions", "src\UniSharp.Common.Extensions\UniSharp.Common.Extensions.csproj", "{1FE5B144-F6BA-4F47-9E02-1FDCE1799227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,11 +49,17 @@ Global
 		{87BCC29B-E904-453A-BB05-AD1F589A01A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87BCC29B-E904-453A-BB05-AD1F589A01A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87BCC29B-E904-453A-BB05-AD1F589A01A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE5B144-F6BA-4F47-9E02-1FDCE1799227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE5B144-F6BA-4F47-9E02-1FDCE1799227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE5B144-F6BA-4F47-9E02-1FDCE1799227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE5B144-F6BA-4F47-9E02-1FDCE1799227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4214381F-8A61-4046-A4AD-818784821697} = {C7AAE61C-436F-4FB4-988A-E33AA0A80081}
-		{2BB9592E-2672-4981-BD9B-A167355B18DB} = {C7AAE61C-436F-4FB4-988A-E33AA0A80081}
 		{7671FF3F-56E6-4C62-AB77-CE8BAAED4F32} = {C7AAE61C-436F-4FB4-988A-E33AA0A80081}
 		{4664FA4E-F00C-42D9-8E5A-D241EAC17B26} = {C7AAE61C-436F-4FB4-988A-E33AA0A80081}
+		{EA2AB621-0A66-4E80-8FFE-7122227F0E34} = {C7AAE61C-436F-4FB4-988A-E33AA0A80081}
+		{2BB9592E-2672-4981-BD9B-A167355B18DB} = {EA2AB621-0A66-4E80-8FFE-7122227F0E34}
+		{1FE5B144-F6BA-4F47-9E02-1FDCE1799227} = {EA2AB621-0A66-4E80-8FFE-7122227F0E34}
 	EndGlobalSection
 EndGlobal

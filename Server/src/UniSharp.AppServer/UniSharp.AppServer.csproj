@@ -6,7 +6,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\UniSharp.ServerCommon\UniSharp.ServerCommon.csproj" />
+      <ProjectReference Include="..\UniSharp.Common.RpcServer\UniSharp.Common.RpcServer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MagicOnion.HttpGateway" Version="3.0.11" />
     </ItemGroup>
 
 </Project>

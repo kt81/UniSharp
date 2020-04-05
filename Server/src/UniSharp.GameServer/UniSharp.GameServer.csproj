@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\UniSharp.ServerCommon\UniSharp.ServerCommon.csproj" />
+      <ProjectReference Include="..\UniSharp.Common.RpcServer\UniSharp.Common.RpcServer.csproj" />
     </ItemGroup>
 
 </Project>
