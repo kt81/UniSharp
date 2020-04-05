@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Shared\UniSharp.Abstractions\UniSharp.Abstractions.csproj" />
+      <ProjectReference Include="..\..\..\UniSharp.Shared\UniSharp.Abstractions\UniSharp.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>

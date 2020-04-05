@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.GameServer", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.CommandLine", "src\UniSharp.CommandLine\UniSharp.CommandLine.csproj", "{4664FA4E-F00C-42D9-8E5A-D241EAC17B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.Abstractions", "..\Shared\UniSharp.Abstractions\UniSharp.Abstractions.csproj", "{87BCC29B-E904-453A-BB05-AD1F589A01A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniSharp.Abstractions", "..\UniSharp.Shared\UniSharp.Abstractions\UniSharp.Abstractions.csproj", "{87BCC29B-E904-453A-BB05-AD1F589A01A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{C8F6D801-C4FA-43DB-ABA7-27CFA23044EF}"
 ProjectSection(SolutionItems) = preProject
