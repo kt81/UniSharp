@@ -1,0 +1,13 @@
+<SlnMergeSettings>
+    <MergeTargetSolution>../UniSharp.Server/UniSharp.Server.sln</MergeTargetSolution>
+    <NestedProjects>
+        <!-- Application -->
+        <NestedProject ProjectName="Assembly-CSharp*" FolderPath="src/Unity" />
+        <!-- 3rd party libraries -->
+        <NestedProject ProjectName="MagicOnion*" FolderPath="src/Unity External" />
+        <NestedProject ProjectName="MessagePack" FolderPath="src/Unity External" />
+        <NestedProject ProjectName="SlnMerge" FolderPath="src/Unity External" />
+        <NestedProject ProjectName="UniRx*" FolderPath="src/Unity External" />
+        <NestedProject ProjectName="Zenject*" FolderPath="src/Unity External" />
+    </NestedProjects>
+</SlnMergeSettings>
